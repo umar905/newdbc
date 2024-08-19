@@ -1,0 +1,117 @@
+/* UserPage.css */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+  .user-details {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .user-details h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .user-details h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #444;
+  }
+  
+  .user-details p {
+    font-size: 18px;
+    margin: 5px 0;
+    color: #666;
+  }
+  
+  .user-details img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 4px solid #ddd;
+    margin-bottom: 20px;
+  }
+  
+  .user-details button {
+    background-color: #0095f6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px;
+  }
+  
+  .user-details button:hover {
+    background-color: #007ab8;
+  }
+  
+  .edit-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .edit-form div {
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  
+  .edit-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .edit-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  .edit-form button {
+    background-color: #0095f6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px;
+  }
+  
+  .edit-form button:hover {
+    background-color: #007ab8;
+  }
+  
+  .no-user {
+    text-align: center;
+    font-size: 18px;
+    color: #888;
+  }
+  
+  .edit-form button.cancel {
+    background-color: #ddd;
+    color: #333;
+  }
+  
+  .edit-form button.cancel:hover {
+    background-color: #bbb;
+  }
+  
